@@ -81,7 +81,7 @@ function About() {
                 <h5 style={{ margin: "0" }}>University / Department :</h5>
                 <Anchor
                   style={{ margin: "0", fontSize: "17px" }}
-                  href="https://www.kumoh.ac.kr/ko/index.do"
+                  href="https://www.silla.ac.kr/ko/"
                   target="__blank"
                 >
                   신라대학교
@@ -89,7 +89,7 @@ function About() {
                 <p style={{ display: "inline", fontSize: "17px" }}> / </p>
                 <Anchor
                   style={{ margin: "0", fontSize: "17px" }}
-                  href="https://ce.kumoh.ac.kr/ce/index.do"
+                  href="https://electron.silla.ac.kr/electron/"
                   target="__blank"
                 >
                   전자공학과
@@ -111,7 +111,7 @@ function About() {
                 <h5 style={{ margin: "0" }}>Company :</h5>
                 <Anchor
                   style={{ margin: "0", fontSize: "17px" }}
-                  href="http://www.prefinc.com/main/index"
+                  href="https://zeroweb.kr/"
                   target="__blank"
                 >
                   Current: ZEROWEB
@@ -128,7 +128,7 @@ function About() {
               <div style={{ marginLeft: "24px" }}>
                 <h5 style={{ margin: "0" }}>EMail :</h5>
                 <Anchor
-                  href="mailto:bung1438@gmail.com"
+                  href="mailto:wpavkzm97@naver.com"
                   style={{ margin: "0", fontSize: "17px" }}
                 >
                   wpavkzm97@naver.com
@@ -146,7 +146,7 @@ function About() {
                 <h5 style={{ margin: "0" }}>GitHub :</h5>
                 <Anchor
                   style={{ margin: "0", fontSize: "17px" }}
-                  href="https://github.com/gunwoongPark"
+                  href="https://github.com/wpavkzm"
                   target="__blank"
                 >
                   https://github.com/wpavkzm
@@ -164,10 +164,10 @@ function About() {
                 <h5 style={{ margin: "0" }}>velog :</h5>
                 <Anchor
                   style={{ margin: "0", fontSize: "17px" }}
-                  href="https://velog.io/@bung1438"
+                  href=""
                   target="__blank"
                 >
-                  https://velog.io/@bung1438
+                  {" "}
                 </Anchor>
               </div>
             </li>

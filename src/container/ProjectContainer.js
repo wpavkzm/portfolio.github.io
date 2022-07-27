@@ -8,13 +8,17 @@ import IR3 from "../assets/semtle/HW3.PNG";
 import IR4 from "../assets/semtle/IRcase.PNG";
 import IR5 from "../assets/semtle/IR.PNG";
 
-import vueticky1 from "../assets/vueticky/GHW1.PNG";
-import vueticky2 from "../assets/vueticky/vueticky2.png";
-import vueticky3 from "../assets/vueticky/vueticky3.png";
+import GHW1 from "../assets/vueticky/GHW1.PNG";
+import GHW2 from "../assets/vueticky/GHW2.PNG";
+import GHW3 from "../assets/vueticky/GHW3.PNG";
+import GHW4 from "../assets/vueticky/GHW4.PNG";
 
-import ycde1 from "../assets/youcandoeat/main.jpg";
-import ycde2 from "../assets/youcandoeat/sidebar.jpg";
-import ycde3 from "../assets/youcandoeat/select.jpg";
+import KHW1 from "../assets/youcandoeat/KHW1.PNG";
+import KHW2 from "../assets/youcandoeat/KHW2.PNG";
+import KHW3 from "../assets/youcandoeat/KHW3.PNG";
+
+import etc1 from "../assets/etcc/etc1.PNG";
+import etc2 from "../assets/etcc/etc2.PNG";
 
 function ProjectContainer() {
   const projects = [
@@ -25,8 +29,8 @@ function ProjectContainer() {
       시험인증, 사업비 통계, 업체컨텍, 기타자료증빙 등의 업무 동시진행`,
       tag: ["EasyEDA", "2D CAD", "C/C++", "Atemel", "Visual Studio Code"],
       image: [IR1, IR2, IR3, IR4, IR5],
-      url: "http://sbmi.iptime.org/",
-      git: "https://github.com/semtlekkun/semtleProject-front",
+      url: "https://mss.zeroweb.cloud/",
+      // git: "https://github.com/semtlekkun/semtleProject-front",
       mode: "web",
       role: ["Embedded"],
     },
@@ -41,19 +45,20 @@ function ProjectContainer() {
         "Python",
         "RaspberryPi4",
         "MySQL",
+        "RestAPI",
         "Visual Studio Code",
         "Mac OS && Terminal",
       ],
-      image: [vueticky1, vueticky2, vueticky3],
-      url: "https://vueticky-note-b08f1.web.app/",
-      git: "https://github.com/gunwoongPark/Vueticky-Note",
+      image: [GHW1, GHW2, GHW3, GHW4],
+      url: "https://master.dipgi7pfdfbsq.amplifyapp.com/gis",
+      // git: "https://github.com/gunwoongPark/Vueticky-Note",
       mode: "web",
       role: ["Embedded", "MySQLWorkbench"],
     },
 
     {
       id: 3,
-      name: "[과기부] 데이터 가공/융합 및 사업운영",
+      name: "[과기부] 데이터 가공/융합 및 사업계획서 기획/작성 및 운영총괄",
       info: `과기부 프로젝트 진행 내용에 포함되는 센서 데이터 가공 및 융합
       시험인증, 사업비 통계, 실증, 기타자료증빙 등의 업무 동시진행`,
       tag: [
@@ -61,14 +66,29 @@ function ProjectContainer() {
         "Django",
         "Python",
         "MySQL",
+        "MQTT",
         "Visual Studio Code",
         "Mac OS && Terminal",
       ],
-      image: [ycde1, ycde2, ycde3],
+      image: [KHW1, KHW2, KHW3],
       url: "https://watsin-3b4e3.web.app/",
-      git: "https://github.com/HwangYoonSeong/You_can_do_EAT",
+      // git: "https://github.com/HwangYoonSeong/You_can_do_EAT",
       mode: "app",
       role: ["Embedded", "MySQLWorkbench", "React"],
+    },
+
+    {
+      id: 4,
+      name: "[기타자료] 논문/특허등의 기타 자료모음",
+      info: `사업 진행중 진행한 것들의 성과물`,
+      tag: ["논문", "특허"],
+      image: [etc1, etc2],
+      url: "",
+      // git: "",
+      mode: "app",
+      role: [
+        "수많은 연구와 여러 입증방법을 통하여 사실을 기반으로 작성한것이 등록되어있습니다.",
+      ],
     },
   ];
 
